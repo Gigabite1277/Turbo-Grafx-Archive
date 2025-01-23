@@ -1,5 +1,4 @@
-# Turbo Grafx Archive ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
-
+# Turbo Grafx Archive ![alt text](..//Gigabite1277/workspace/Turbo-Grafx-Archive/assets/images/Turbo_Grafx_Logo_Small.png)  
 ## Project Goals
 
   * To build a web application that informs the users of Turbo Grafx (European Edition) console from the late 1980s.  
@@ -39,7 +38,28 @@
 
 ### Design Choices
 
-Wireframes
+#### Fonts
+  * The chosen primary font is  -------------- with the chosen font colour being black.
+  * The chosen secodary font is -------------- with the chosen font colour being black.
+
+Icons
+
+  * Icons that are related to the Turbo Grafx family of consoles and games will be used accross this project.
+  * Items suchas game cards, joysticks , joypads are some of the items that will be featured.
+
+Colours
+  * The standard White, grey, red and blue will form the colour scheme accross all pages.
+  * This colour scheme follows the colour scheme of the Turbo Grafx console/label branding.
+
+
+Styling
+
+  * To use tropes relating to the Turbo Grafx and its games, where possible
+  * To try and catch so element of the late 80's 
+  * To avoid overuse of tropes in line with accessibilty guidelines
+
+
+### Wireframes
 ---
 ## Features
 
@@ -47,8 +67,13 @@ Wireframes
 ### Features Left to Implement
 ---
 ## Tecnologies Used
+  * This webpage is going to be structured using HTML5.
+  * The styling of the website will be achived using CSS3.
 
 ## Testing 
+  * Final testing will be carried out on the most popular browsers i.e Chrome, Safari, Internet Explorer and Samsung Internet.
+  * Test will also take place accross these devices Samsung Phone, iPhone, Android tablet and Windows laptop.
+    
 ---
 ## Deployment
 
