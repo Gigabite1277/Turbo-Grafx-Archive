@@ -55,7 +55,7 @@ Colours
 Styling
 
   * To use tropes relating to the Turbo Grafx and its games, where possible
-  * To try and catch so element of the late 80's 
+  * To try and convey elements of the late 80's styling where possible. 
   * To avoid overuse of tropes in line with accessibilty guidelines
 
 
