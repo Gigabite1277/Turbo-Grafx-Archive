@@ -1,8 +1,8 @@
-# Turbo Grafx Archive ![alt text](..//Gigabite1277/workspace/Turbo-Grafx-Archive/assets/images/Turbo_Grafx_Logo_Small.png)  
+# Turbo Grafx Archive ![Turbo Grafx (UK Console](../workspace/Turbo-Grafx-Archive/assets/images/Turbo_Grafx_Logo_Small.png)  
 ## Project Goals
 
   * To build a web application that informs the users of Turbo Grafx (European Edition) console from the late 1980s.  
-  * To list helpful answer questions user have regarding regional compatibility issues.
+  * To list helpful information and answer questions the users have regarding regional compatibility issues.
 
 ## User Goals
 
