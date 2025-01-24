@@ -1,4 +1,4 @@
-# Turbo Grafx Archive ![Turbo Grafx (UK Console](../workspace/Turbo-Grafx-Archive/assets/images/Turbo_Grafx_Logo_Small.png)  
+# Turbo Grafx Archive ![Turbo Grafx (UK Console)](../workspace/Turbo-Grafx-Archive/assets/images/Turbo Grafx Logo Small.png)  
 ## Project Goals
 
   * To build a web application that informs the users of Turbo Grafx (Europe UK version) console from the late 1980s.  
