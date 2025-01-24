@@ -1,4 +1,7 @@
 # THE ![Turbo Grafx (UK Console)](https://github.com/Gigabite1277/Turbo-Grafx-Archive/blob/main/assets/images/Turbo%20Grafx%20Logo%20Small.png) ARCHIVE
+
+
+
 ## Project Goals
 
   * To build a web application that informs the users of Turbo Grafx (Europe UK version) console from the late 1980s.  
