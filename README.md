@@ -1,8 +1,9 @@
 # Turbo Grafx Archive ![Turbo Grafx (UK Console](../workspace/Turbo-Grafx-Archive/assets/images/Turbo_Grafx_Logo_Small.png)  
 ## Project Goals
 
-  * To build a web application that informs the users of Turbo Grafx (European Edition) console from the late 1980s.  
+  * To build a web application that informs the users of Turbo Grafx (Europe UK version) console from the late 1980s.  
   * To list helpful information and answer questions the users have regarding regional compatibility issues.
+  * Advise users on what games available for this console version.
 
 ## User Goals
 
@@ -17,7 +18,7 @@
 
 #### User Story - One : Couldn't afford the Turbo Grafx when I was young
 
-  * When I was young, I always wanted a PC engine (Asia version) but couldn't afford one. I heard there are some rare European versions, but I know very little about them. There are so many versions and even these days they cost a few hundred pounds. I need a website that can tell me more about the Turbo Grafx (European Edition) in particular, then I can make a decision to to buy.
+  * "When I was young, I always wanted a PC engine (Asia version) but couldn't afford one. I heard there are some rare European versions, but I know very little about them. There are so many versions and even these days they cost a few hundred pounds. I need a website that can tell me more about the Turbo Grafx (European Edition) in particular, then I can make a decision to to buy".
 
 ---
 
@@ -85,9 +86,6 @@ Styling
 
 ---
 
-## Deployment:
-
----
 
 ## Credits
 
