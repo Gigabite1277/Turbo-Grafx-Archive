@@ -6,7 +6,7 @@
 
   * To build a web application that informs the users of Turbo Grafx (Europe UK version) console from the late 1980s.  
   * To list helpful information and answer questions the users have regarding regional compatibility issues.
-  * Advise users on what games available for this console version.
+  * Advise users on what games are available for this console version.
 
 ## User Goals
 
@@ -28,12 +28,12 @@
 #### User Story - Two : Not Sure if these consoles will work in the UK
 
 
-  * I'm looking for information on a console a friend showed me years ago, when I was a kid. It's Japanese, so wasn't really available in the UK at the time. I can hopefully find out how to get one that will work in the UK. If I can find a website that tells me about compatibility issues with UK TVs, so I avoid any surprises when I finally buy one.
+  * "I'm looking for information on a console a friend showed me years ago, when I was a kid. It's Japanese, so wasn't really available in the UK at the time. I can hopefully find out how to get one that will work in the UK. If I can find a website that tells me about compatibility issues with UK TVs, so I avoid any surprises when I finally buy one".
 ---
 
 #### User Story - Three: User not sure if his console can play certain games
 
-  * I found one of these consoles in the loft from long ago. Never seen one before, but after a quick a search, I read that they're supposedly good fun. I need to find a website that can tell me the right game type. The games are on cards, not cartridges.
+  * "I found one of these consoles in the loft from long ago. Never seen one before, but after a quick a search, I read that they're supposedly good fun. I need to find a website that can tell me the right game type. The games are on cards, not cartridges".
 ---
 #### User Story - Four: User wants to watch Turbo Grafx content for nostalgia.\
 
@@ -64,7 +64,11 @@ Styling
 
 
 ### Wireframes
+
+[I'm an inline-style link with title] (https://github.com/Gigabite1277/Turbo-Grafx-Archive/blob/main/assets/images/MSP1%20White%20background.png "The Turbo Grafx Archive Wireframes")
+
 ---
+
 ## Features
 
 ### Existing Features
