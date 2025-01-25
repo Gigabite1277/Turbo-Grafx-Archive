@@ -1,4 +1,15 @@
+/**<div class="area1"> used to display written content**/ 
 .area1 {    border-style: solid;
-           
-       }
-
+       border-width: 15px;
+       border-radius: 20px;
+       margin-top: 5%;
+       margin-left: 5%;
+       margin-right: 5%;
+       margin-bottom: 10%;  
+  }
+p {
+  padding: 15px;
+}
+footer {    border-style: solid;
+  margin-top: 30%;
+}
