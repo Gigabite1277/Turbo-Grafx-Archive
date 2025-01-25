@@ -4,7 +4,8 @@
 ## Strategy
 ## Project Goals
 
-  * To build a web application that informs the users of Turbo Grafx (Europe UK version) console from the late 1980s.  
+  * To build a web application that informs the users of Turbo Grafx (Europe 
+    UK version) console from the late 1980s.  
   * To list helpful information and answer questions the users have regarding regional compatibility issues.
   * Advise users on what games are available for this console version.
 
@@ -77,7 +78,7 @@ Styling
 ### Existing Features
 ### Features Left to Implement
 ---
-## Tecnologies Used
+## Technologies Used
   * This webpage is going to be structured using HTML5.
   * The styling of the website will be achived using CSS3.
 
