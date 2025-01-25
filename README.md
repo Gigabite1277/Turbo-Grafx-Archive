@@ -1,7 +1,7 @@
 # THE ![Turbo Grafx (UK Console)](https://github.com/Gigabite1277/Turbo-Grafx-Archive/blob/main/assets/images/Turbo%20Grafx%20Logo%20Small.png) ARCHIVE
 
 
-
+## Strategy
 ## Project Goals
 
   * To build a web application that informs the users of Turbo Grafx (Europe UK version) console from the late 1980s.  
@@ -39,7 +39,7 @@
 
   * "I used to love watching the Turbo Grafx adverts back in the 80s. I need a website where can find some rare content from that time. It would be really funny to see some them again."
 ---
-
+##  Skeleton + Surface
 ### Design Choices
 
 #### Fonts
@@ -68,8 +68,11 @@ Styling
 [The Turbo Grafx Archive Wireframes] (https://github.com/Gigabite1277/Turbo-Grafx-Archive/blob/main/assets/images/MSP1%20White%20background.png)
 
 ---
-
+## Scope
 ## Features
+  * Access to a searcable list of games for the console.
+  * Access to information vital to the region of this console.
+  * A gallery of video content from the 1980's.
 
 ### Existing Features
 ### Features Left to Implement
