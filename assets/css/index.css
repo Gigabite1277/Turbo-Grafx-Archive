@@ -13,6 +13,8 @@ p {
 footer {    border-style: solid;
             margin-top: 30%;
             border-radius: 15px;
+            display: flex;
+            flex-wrap: nowrap;
 }
 .fitems {
        text-align: center;
@@ -20,5 +22,5 @@ footer {    border-style: solid;
 body {
        margin-left: 20%;
        margin-right: 20%;
-
+       
 }
