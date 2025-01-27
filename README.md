@@ -1,4 +1,4 @@
-# THE ![Turbo Grafx (UK Console)](https://github.com/Gigabite1277/Turbo-Grafx-Archive/blob/main/assets/images/Turbo%20Grafx%20Logo%20Small.png) ARCHIVE
+# THE ![Turbo Grafx (UK Console)](https://github.com/Gigabite1277/Turbo-Grafx-Archive/blob/main/assets/images/tg16banner.png) 
 
 
 ## Strategy
