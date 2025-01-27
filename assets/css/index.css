@@ -2,25 +2,46 @@
 /* CSS Document */
 /**<div class="area1"> used to display written content**/ 
 
-.area1 {       border-style: solid;
-               border-width: 15px;
-               border-radius: 15px;
-               padding-right: 30px;
+.area1 {    border-style: solid;
+            border-width: 15px;
+            border-radius: 15px;
+            padding-top: 20px;
+	        padding-right: 50px;
 	        padding-bottom: 20px;
-	        padding-left: 30px;
-			}
+	        padding-left: 50px;
+			max-width: 865px;
+			margin-top: 20px;
+			margin-top: 20px;
+		}
+
+
 
 footer {    border-style: solid;
-            margin-top: 30%;
+            margin-top: 40%;
             border-radius: 15px;
             display: flex;
             flex-wrap: nowrap;
+			max-width: 1000px;
 }
 .fitems {
             text-align: center;
+			padding-left:100px;
 }
 body {
             margin-left:20%;
             margin-right: 20%;
        
 }
+.navi {
+	display: block;
+	float: left;
+	padding-left: 50px;
+	padding-right: 50px;
+	
+	text-align: center;
+	
+	}
+.navi2 {
+	border-style:solid;
+	
+	}
