@@ -14,7 +14,7 @@
 	        padding-right: 20px;
 	        padding-bottom: 20px;
 	        padding-left: 50px;
-			max-width: 1000px;
+			
 			margin-top: 20px;
 			margin-top: 20px;
 			font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -29,7 +29,7 @@ footer {    border-style: solid;
             border-radius: 15px;
             display: flex;
             flex-wrap: nowrap;
-			max-width: 1000px;
+			
 }
 .fitems {
             text-align: center;
@@ -48,6 +48,7 @@ body {
 	   flex-wrap: nowrap;
 	   text-transform: uppercase;
 	   color: azure;
+	   
 	}
 .navi2 {
 	padding-top: 15px;
@@ -58,12 +59,12 @@ body {
 	border-radius: 15px;
 	border-width: 5px;
 	background-color: grey ;
-	max-width: 1000px;
-    text-align: center;
 	
+    
 	
-	@media only screen and (min-width: 600px) {
-		body {
-		  background-color: lightblue;
+@media screen and (min-width: 400px) and (max-width:900px) {
+body {
+		  background-color: blue;
 		}
 	  }
+	
