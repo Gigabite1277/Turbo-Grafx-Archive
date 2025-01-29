@@ -14,7 +14,6 @@
 	        padding-right: 20px;
 	        padding-bottom: 20px;
 	        padding-left: 50px;
-			
 			margin-top: 20px;
 			margin-top: 20px;
 			font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -59,11 +58,10 @@ body {
 	border-radius: 15px;
 	border-width: 5px;
 	background-color: grey ;
-	
-    @media screen and (max-width: 397px)
-	{
-	
-	body	{
-		background-color:blue !important;
+}
+
+@media screen and (min-width: 397px) and (max-width: 1000px)    {  
+		body  {
+		       background-color: fuchsia;
 	}
-	}
+}
