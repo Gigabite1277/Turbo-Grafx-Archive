@@ -44,8 +44,8 @@
 ### Design Choices
 
 #### Fonts
-  * The chosen primary font is  -------------- with the chosen font colour being black.
-  * The chosen secodary font is -------------- with the chosen font colour being black.
+  * The chosen primary font is Arial with the chosen font colour being black.
+  * The chosen secondary font is Lucida Sans with the chosen font colour being black.
 
 Icons
 

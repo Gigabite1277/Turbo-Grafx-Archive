@@ -2,6 +2,11 @@
 /* CSS Document */
 /**<div class="area1"> used to display written content**/ 
 
+
+.tgbanner {
+	height :100%;
+	width:100%;
+  }
 .area1 {    border-style: solid;
             border-width: 15px;
             border-radius: 15px;
@@ -12,6 +17,8 @@
 			max-width: 865px;
 			margin-top: 20px;
 			margin-top: 20px;
+			font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+			
 		}
 
 
@@ -28,20 +35,32 @@ footer {    border-style: solid;
 			padding-left:100px;
 }
 body {
-            margin-left:20%;
-            margin-right: 20%;
+            margin-left:15%;
+            margin-right: 15%;
        
 }
 .navi {
-	display: block;
-	float: left;
-	padding-left: 50px;
-	padding-right: 50px;
-	
-	text-align: center;
-	
+	   display: inline;
+	   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	   padding-left: 50px;
+	   padding-right: 50px;
+	   text-align: center;
+	   flex-wrap: nowrap;
 	}
 .navi2 {
-	border-style:solid;
+	padding-top: 15px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 15px;
+	border-style: solid;
+	border-radius: 15px;
+	border-width: 5px;
+	background-color: grey ;
+	max-width: 856px;
+
 	
-	}
+	@media only screen and (min-width: 400px) {
+		body {
+		  margin: 100%;
+		}
+	  }
