@@ -5,41 +5,47 @@
 	height:100%;
 	max-width:100%;
   }
-  /**Welcome Area Home Page**/ 
-.area1 {    border-style: solid;
-            border-width: 2px;
-            border-radius: 15px;
-            padding-top: 20px;
-	        padding-right: 20px;
+  /**Welcome Area - Home Page**/ 
+.area1 {    border-style: ridge;
+            border-width: 5px;
+            border-radius: 5px;
+		    padding-top: 20px;	        
+			padding-right: 20px;
 	        padding-bottom: 20px;
 	        padding-left: 50px;
 			margin-top: 20px;
 			margin-top: 20px;
+			margin-top: 20px;
 			font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 			flex-wrap: nowrap;
+			background-color: white;
 			
 		}
 
 
 /**Footer*/ 
 footer {    border-style: solid;
-            margin-top: 15%;
-            border-radius: 15px;
-            display: flex;
-            flex-wrap: nowrap;
-			background-color: grey ;
+            margin-top: 20%;
+            border-radius: 5px;
+			border-width: 2px;
+        	background-color: grey ;
+			max-width:100%;			
 }
-  /**Text items in the footer area**/ 
-.fitems {
-            text-align: center;
-			padding-left:100px;
+.smalllogo   {
+			align-items: center;
 }
+
+/**All styling related to the main body**/ 
 body {
-            margin-left:25%;
-            margin-right: 25%;
+            margin-left:20%;
+            margin-right: 20%;
+			background-color: darkgray;
+			
+			
+			
        
 }
-/**Navigation bar**/ 
+/**Navigation bar text**/ 
 .navi {
 	   
 	   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -50,7 +56,7 @@ body {
 	   color: azure;
 	   display: inline;
 	   display: flex;
-	   
+	   align-items: center;
 	}
 /**Navigation bar**/ 
 .navi2 {
@@ -59,13 +65,21 @@ body {
 	padding-right: 50px;
 	padding-bottom: 15px;
 	border-style: solid;
-	border-radius: 15px;
+	border-radius: 5px;
 	border-width: 2px;
 	background-color: grey ;
 	
 }
 
-    @media screen and (max-width: 1600px)   {  
+
+  .firstgrid  {
+	     display:grid;
+		 grid-template-columns: auto auto auto;
+		 column-gap: 25px;
+        }
+
+/**Media screen repsonsive settings**/ 
+    @media screen and (max-width: 1700px)   {  
 		body  {
 			  
 			  margin-left:15%;
@@ -74,7 +88,7 @@ body {
 		}		  
 	}
 
-	@media screen and (max-width: 1600px)  {  
+	@media screen and (max-width: 1700px)  {  
 		.area1  {
 			  
 			  font-size: 12px;
@@ -82,10 +96,22 @@ body {
 				}		  
 	}
 
-	@media screen and (max-width: 1600px)   {  
+	@media screen and (max-width: 1700px)   {  
 		.navi  {
-			  font-size: 8px;
+			  font-size:20px;
 			  max-width: 100%;
  			   }		  
 	}
-	
+	@media screen and (max-width: 360px)   {  
+		.navi  {
+			  font-size:10px;
+			  max-width: 100%;
+ 			   }		  
+	}
+}
+@media screen and (max-width: 673px)   {  
+	.navi  {
+		  font-size:10px;
+		  
+			}		  
+}
