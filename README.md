@@ -71,12 +71,11 @@ Styling
 ---
 ## Scope
 ## Features
-  * Access to a searcable list of games for the console.
   * Access to information vital to the region of this console.
   * A gallery of video content from the 1980's.
 
 ### Existing Features
-### Features Left to Implement
+Video gallery
 ---
 ## Technologies Used
   * This webpage is going to be structured using HTML5.
@@ -88,20 +87,28 @@ Styling
     
 ---
 ## Deployment
+Via Git Hub
 
 ### How To Run This Project locally
+
 ---
 
 ## Testing:
+Tested as working on all browsers. Links work as expected and the video gallery area plays content well. 
 ### Bugs:
-
+After validation a number of items had to be removed. Duplicate classes etc. This causeed problems with the navigation bar on page two.
 ---
 
 
 ## Credits
+Wiki Pedia for PC Engine information
 
 ### Content
+Youtube
+
 ### Code
+All code written by me
+
 ### Media (Picture & Video):
 ## Acknowledgements
 ---
