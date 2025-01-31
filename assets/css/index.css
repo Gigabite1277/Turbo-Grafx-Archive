@@ -2,7 +2,7 @@
 /* CSS Document */
 /**Website banner .png**/ 
 .tgbanner {
-	height:100%;
+	max-height:100%;
 	max-width:100%;
   }
   /**Welcome Area - Home Page**/ 
@@ -32,7 +32,8 @@ footer {    border-style: solid;
 			max-width:100%;			
 }
 .smalllogo   {
-			align-items: center;
+	height:100%;
+	max-width:100%;
 }
 
 /**All styling related to the main body**/ 
@@ -68,15 +69,51 @@ body {
 	border-radius: 5px;
 	border-width: 2px;
 	background-color: grey ;
-	
+	display: flex;
+}
+/*Navbar link/button styling*/
+.butt1 {
+	    border-style:ridge;
+		margin: 10px;
+		margin-right: 10px;
+		text-align: center;
+		border-radius: 5%;
+		background-color: gainsboro;
+		padding: 5px;
+		font-family:Arial, Helvetica, sans-serif;
+		font-weight: bold;
+	}
+.butt2 {
+	    border-style:ridge;
+		margin: 10px;
+		margin-right: 10px;
+		text-align: center;
+		border-radius: 5%;
+		background-color: gainsboro;
+		padding: 5px;
+		font-family:Arial, Helvetica, sans-serif;
+		font-weight: bold;
+
+}
+.butt3 {
+	border-style:ridge;
+	margin: 10px;
+	margin-right: 10px;
+	text-align: center;
+	border-radius: 5%;
+	background-color: gainsboro;
+	padding: 5px;
+	font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
 }
 
 
-  .firstgrid  {
+  /*.firstgrid  {
 	     display:grid;
 		 grid-template-columns: auto auto auto;
 		 column-gap: 25px;
-        }
+        }*/
 
 /**Media screen repsonsive settings**/ 
       @media screen and (max-width: 1700px) and (max-width:746px) and (min-width:375px) {
