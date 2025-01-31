@@ -79,39 +79,19 @@ body {
         }
 
 /**Media screen repsonsive settings**/ 
-    @media screen and (max-width: 1700px)   {  
+      @media screen and (max-width: 1700px) and (max-width:746px) and (min-width:375px) {
 		body  {
 			  
 			  margin-left:15%;
 			  margin-right:15%;
-	    
-		}		  
+			  background-color: aqua;
+		}
 	}
-
-	@media screen and (max-width: 1700px)  {  
-		.area1  {
-			  
-			  font-size: 12px;
-			  max-width: 100%;
-				}		  
-	}
-
-	@media screen and (max-width: 1700px)   {  
-		.navi  {
-			  font-size:20px;
-			  max-width: 100%;
- 			   }		  
-	}
-	@media screen and (max-width: 360px)   {  
-		.navi  {
-			  font-size:10px;
-			  max-width: 100%;
- 			   }		  
-	}
-}
-@media screen and (max-width: 673px)   {  
+/**Media screen repsonsive settings**/ 
+@media screen and (max-width: 1700px) and (max-width:746px) and (min-width:375px) {
 	.navi  {
-		  font-size:10px;
 		  
-			}		  
+font-size: 10px;
+max-width: 377px;
+	}
 }
