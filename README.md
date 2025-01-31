@@ -66,7 +66,7 @@ Styling
 
 ### Wireframes
 
-[The Turbo Grafx Archive Wireframes] (https://github.com/Gigabite1277/Turbo-Grafx-Archive/blob/main/assets/images/MSP1%20White%20background.png)
+[The Turbo Grafx Archive Wireframes] (https://github.com/Gigabite1277/Turbo-Grafx-Archive/blob/main/assets/images/Turbo_Grafx_Archive_Wireframe.png))
 
 ---
 ## Scope
