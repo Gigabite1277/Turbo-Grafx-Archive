@@ -1,19 +1,23 @@
+header {
+   
+}
+
 body {
     margin-right: 15%;
     margin-left: 15%;
-    background-image: url();
+    background-color: darkgray;
 }
 
 
 .maingrid {
         display: grid;
-        grid-template-rows: 180px 400px 400px 100px;
+        grid-template-rows: auto 400px 400px 100px;
         row-gap: 20px;
         background-color: black;
         padding: 30px;
         border-style: ridge;
         border-radius: 5px;
-        border-color: gold;
+        
         border-width: 5px;
         margin-right:  auto;
         margin-left: auto;
@@ -31,13 +35,21 @@ body {
 #navbut1, #navbut2, #navbut3 {
                             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
                             font-weight: bolder;
+                            font-size: 15px;
+                            
+                            border-style: ridge;
+                            border-radius: 5px;
+                            border-color: whitesmoke;
+                            background-color: gainsboro;
+                            margin: 10px;
 }  
 
 #maingrid1 { 
           border-style: outset;
           border-color: #c60000;
           border-width: 5px;
-          border-radius: 5px;
+          border-radius: 5px;background-color: white;
+          padding: 20px;
 }
 #maingrid2 { 
 border-style: outset;
