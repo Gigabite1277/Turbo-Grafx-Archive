@@ -1,0 +1,143 @@
+@charset "utf-8";
+/* CSS Document */
+/**Website banner .png**/ 
+.tgbanner {
+	max-height:100%;
+	max-width:100%;
+  }
+  /**Welcome Area - Home Page**/ 
+.area1 {    border-style: ridge;
+            border-width: 5px;
+            border-radius: 5px;
+			border-color: gold;
+		    padding-top: 20px;	        
+			padding-right: 20px;
+	        padding-bottom: 20px;
+	        padding-left: 50px;
+			margin-top: 20px;
+			margin-top: 20px;
+			margin-top: 20px;
+			font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+			flex-wrap: nowrap;
+			background-color: white;
+			
+		}
+
+
+/**Footer*/ 
+footer {    border-style: solid;
+            margin-top: 15%;
+            border-radius: 5px;
+			border-width: 2px;
+        	background-color: grey ;
+			max-width:100%;	
+			align-content: center;		
+}
+.smalllogo   {
+	height:100%;
+	max-width:100%;
+}
+
+/**All styling related to the main body**/ 
+body {
+            margin-left:20%;
+            margin-right: 20%;
+			background-color: darkgray;
+			
+			
+			
+       
+}
+/**Navigation bar text**/ 
+.navi {
+	   
+	   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	   font-weight: bold;
+	   font-size: 20px;
+	   flex-wrap: nowrap;
+	   text-transform: uppercase;
+	   text-decoration-color: snow;
+	   display: inline;
+	   display: flex;
+	   align-items: center;
+	}
+/**Navigation bar**/ 
+.navi2 {
+	padding-top: 15px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 15px;
+	border-style: solid;
+	border-radius: 5px;
+	border-width: 2px;
+	background-color: grey ;
+	display: flex;
+}
+/*Navbar link/button styling*/
+.butt1 {
+	    border-style:ridge;
+		margin: 10px;
+		margin-right: 10px;
+		text-align: center;
+		border-radius: 5%;
+		background-color: gainsboro;
+		padding: 5px;
+		font-family:Arial, Helvetica, sans-serif;
+		font-weight: bold;
+	}
+.butt2 {
+	    border-style:ridge;
+		margin: 10px;
+		margin-right: 10px;
+		text-align: center;
+		border-radius: 5%;
+		background-color: gainsboro;
+		padding: 5px;
+		font-family:Arial, Helvetica, sans-serif;
+		font-weight: bold;
+
+}
+.butt3 {
+	border-style:ridge;
+	margin: 10px;
+	margin-right: 10px;
+	text-align: center;
+	border-radius: 5%;
+	background-color: gainsboro;
+	padding: 5px;
+	font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+
+.tgmedia1 {
+	   display: inline;
+	   display: flex;
+	   flex-wrap: wrap;
+	   
+}
+
+
+  /*.firstgrid  {
+	     display:grid;
+		 grid-template-columns: auto auto auto;
+		 column-gap: 25px;
+        }*/
+
+/**Media screen repsonsive settings**/ 
+      @media screen and (max-width: 1700px) and (max-width:746px) and (min-width:375px) {
+		body  {
+			  
+			  margin-left:10%;
+			  margin-right:10%;
+			align-items: center;
+		}
+	}
+/**Media screen repsonsive settings**/ 
+@media screen and (max-width: 1700px) and (max-width:746px) and (min-width:375px) {
+	.navi  {
+		  
+font-size: 10px;
+max-width: 377px;
+	}
+}

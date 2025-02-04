@@ -1,143 +1,81 @@
-@charset "utf-8";
-/* CSS Document */
-/**Website banner .png**/ 
-.tgbanner {
-	max-height:100%;
-	max-width:100%;
-  }
-  /**Welcome Area - Home Page**/ 
-.area1 {    border-style: ridge;
-            border-width: 5px;
-            border-radius: 5px;
-			border-color: gold;
-		    padding-top: 20px;	        
-			padding-right: 20px;
-	        padding-bottom: 20px;
-	        padding-left: 50px;
-			margin-top: 20px;
-			margin-top: 20px;
-			margin-top: 20px;
-			font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-			flex-wrap: nowrap;
-			background-color: white;
-			
-		}
-
-
-/**Footer*/ 
-footer {    border-style: solid;
-            margin-top: 15%;
-            border-radius: 5px;
-			border-width: 2px;
-        	background-color: grey ;
-			max-width:100%;	
-			align-content: center;		
-}
-.smalllogo   {
-	height:100%;
-	max-width:100%;
-}
-
-/**All styling related to the main body**/ 
 body {
-            margin-left:20%;
-            margin-right: 20%;
-			background-color: darkgray;
-			
-			
-			
-       
-}
-/**Navigation bar text**/ 
-.navi {
-	   
-	   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-	   font-weight: bold;
-	   font-size: 20px;
-	   flex-wrap: nowrap;
-	   text-transform: uppercase;
-	   text-decoration-color: snow;
-	   display: inline;
-	   display: flex;
-	   align-items: center;
-	}
-/**Navigation bar**/ 
-.navi2 {
-	padding-top: 15px;
-	padding-left: 50px;
-	padding-right: 50px;
-	padding-bottom: 15px;
-	border-style: solid;
-	border-radius: 5px;
-	border-width: 2px;
-	background-color: grey ;
-	display: flex;
-}
-/*Navbar link/button styling*/
-.butt1 {
-	    border-style:ridge;
-		margin: 10px;
-		margin-right: 10px;
-		text-align: center;
-		border-radius: 5%;
-		background-color: gainsboro;
-		padding: 5px;
-		font-family:Arial, Helvetica, sans-serif;
-		font-weight: bold;
-	}
-.butt2 {
-	    border-style:ridge;
-		margin: 10px;
-		margin-right: 10px;
-		text-align: center;
-		border-radius: 5%;
-		background-color: gainsboro;
-		padding: 5px;
-		font-family:Arial, Helvetica, sans-serif;
-		font-weight: bold;
-
-}
-.butt3 {
-	border-style:ridge;
-	margin: 10px;
-	margin-right: 10px;
-	text-align: center;
-	border-radius: 5%;
-	background-color: gainsboro;
-	padding: 5px;
-	font-family:Arial, Helvetica, sans-serif;
-    font-weight: bold;
-
-}
-
-.tgmedia1 {
-	   display: inline;
-	   display: flex;
-	   flex-wrap: wrap;
-	   
+    margin-right: 15%;
+    margin-left: 15%;
+    background-image: url();
 }
 
 
-  /*.firstgrid  {
-	     display:grid;
-		 grid-template-columns: auto auto auto;
-		 column-gap: 25px;
-        }*/
+.maingrid {
+        display: grid;
+        grid-template-rows: 180px 400px 400px 100px;
+        row-gap: 20px;
+        background-color: black;
+        padding: 30px;
+        border-style: ridge;
+        border-radius: 5px;
+        border-color: gold;
+        border-width: 5px;
+        margin-right:  auto;
+        margin-left: auto;
+        
+}
+.maingrid > div {
+        background-color: #4e4c4ce0;
+        border: 1px solid black;
+        padding: 10px;
+        font-size: 30px;
+        text-align: center;
+        
+}
 
-/**Media screen repsonsive settings**/ 
-      @media screen and (max-width: 1700px) and (max-width:746px) and (min-width:375px) {
-		body  {
-			  
-			  margin-left:10%;
-			  margin-right:10%;
-			align-items: center;
-		}
-	}
-/**Media screen repsonsive settings**/ 
-@media screen and (max-width: 1700px) and (max-width:746px) and (min-width:375px) {
-	.navi  {
-		  
-font-size: 10px;
-max-width: 377px;
-	}
+#navbut1, #navbut2, #navbut3 {
+                            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                            font-weight: bolder;
+}  
+
+#maingrid1 { 
+          border-style: outset;
+          border-color: #c60000;
+          border-width: 5px;
+          border-radius: 5px;
+}
+#maingrid2 { 
+border-style: outset;
+border-color: #0089de;
+border-width: 5px;
+border-radius: 5px;
+}
+#maingrid3 { 
+border-style: outset;
+border-color: #c60000;
+border-width: 5px;
+border-radius: 5px;
+}
+
+
+@media screen and (min-width: 1200px) {
+.tg16banner250 {     display:none;       
+
+}
+}
+
+@media screen and (max-width: 1200px) {
+.tg16banner650 {     display:none;       
+
+}
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px)  {
+#navbut1 {  font-size:15px;
+            font-weight: bold;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                       
+}
 }
