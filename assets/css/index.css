@@ -1,12 +1,18 @@
-body {
-    margin-right: 15%;
-    margin-left: 15%;
-}
-
 .bannerboxp1 {
         border-style: ridge;
         border-width: 5px;
         border-color: #0089de;
+}
+#navbut1, #navbut2, #navbut3 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bolder;
+        border-style: solid;
+        background-color: slategrey;
+        border-radius: 5px;
+}  
+body {
+    margin-right: 15%;
+    margin-left: 15%;
 }
 .maingridp1 {
         display: grid;
@@ -21,41 +27,40 @@ body {
         border-color: #0089de;
 }
 .maingridp1 > div {
-        background-color: #4e4c4ce0;
+        background-color: #fffefee0;
         border: 1px solid black;
         padding: 10px;
         font-size: 30px;
         text-align: center;
         
+        
 }
-
-#navbut1, #navbut2, #navbut3 {
-                            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-                            font-weight: bolder;
-                            border-style: solid;
-                            background-color: slategrey;
-                            border-radius: 5px;
-                          }  
 
 #infobox1p1  { 
           border-style: outset;
-          border-color: #c60000;
+          border-color: #0089de;
           border-width: 5px;
           border-radius: 5px;
 }
 #infobox2p1 { 
+        border-style: outset;
+        border-color:  #c60000;
+        border-width: 5px;
+        border-radius: 5px;
+}
+
+#infobox3p1 { 
 border-style: outset;
 border-color: #0089de;
 border-width: 5px;
 border-radius: 5px;
 }
-#infobox3p1 { 
-border-style: outset;
-border-color: #c60000;
-border-width: 5px;
-border-radius: 5px;
+#infobox4p1 { 
+        border-style: outset;
+        border-color:  #c60000;;
+        border-width: 5px;
+        border-radius: 5px;
 }
-
 
 @media screen and (min-width: 1200px) {
 .tg16banner250 {     display:none;       
@@ -68,10 +73,10 @@ border-radius: 5px;
 
 }
 }
-@media screen and (max-width: 600px)  {
+@media screen and (min-width: 600px)  {
 #navbut1 {  font-size:25px;
-            font-weight: bold;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+               font-weight: bold;
+               font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
                        
 }
 }
