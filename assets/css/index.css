@@ -31,7 +31,6 @@ body {
 }
 .maingridp1 > div {
         background-color: #fffefee0;
-        border: 1px solid rgb(187, 26, 228);
         padding: 10px;
         font-size: 30px;
         text-align: center;
@@ -43,7 +42,7 @@ body {
         border-style: outset;
         border-color: #0089de;
         border-width: 5px;                         
-  border-radius: 5px;
+        border-radius: 5px;
 }
 #infobox2p1 { 
         border-style: outset;
@@ -64,6 +63,65 @@ body {
         border-width: 5px;
         border-radius: 5px;
 }
+
+
+    .maingridp2 {
+            display: grid;
+            grid-template-rows: 180px 1000px 50px;
+            row-gap: 20px;
+            background-color: black;
+            padding: 30px;
+            border-radius: 5px;
+            margin-right:  auto;
+            margin-left: auto;
+            border-style: ridge;
+            border-color: #0089de;
+    }
+    .maingridp2 > div {
+            background-color: #fffefee0;
+            border: 1px solid rgb(187, 26, 228);
+            padding: 10px;
+            font-size: 30px;
+            text-align: center;
+            
+            
+            
+    }
+    
+    #infobox1p2  { 
+            border-style: outset;
+            border-color: #0089de;
+            border-width: 5px;                         
+            border-radius: 5px;
+            max-width: fit-content;
+            max-height: fit-content;
+    }
+    #infobox2p2 { 
+            border-style: outset;
+            border-color:  #c60000;
+            border-width: 5px;
+            border-radius: 5px;
+            max-width: fit-content;
+            max-height: fit-content;
+    }
+    
+    #infobox3p2 { 
+            border-style: outset;
+            border-color: #0089de;
+            border-width: 5px;
+            border-radius: 5px;
+            max-width: fit-content;
+            max-height: fit-content;
+            
+    }
+    #infobox4p2 { 
+            border-style: outset;
+            border-color:  #c60000;;
+            border-width: 5px;
+            border-radius: 5px;
+            
+            
+    }
 
 @media screen and (min-width: 1200px) {
 .tg16banner250 {     display:none;       
