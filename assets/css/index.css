@@ -1,15 +1,18 @@
 .bannerboxp1 {
-        border-style: ridge;
-        border-width: 5px;
-        border-color: #0089de;
+        
 }
 #navbut1, #navbut2, #navbut3 {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-weight: bolder;
+        font-size: 20px;
+        color:white;
         border-style: solid;
         background-color: slategrey;
         border-radius: 5px;
-}  
+        border-color: #f8fafc;
+        padding: 10px;
+        align-content: center;
+}
 body {
     margin-right: 15%;
     margin-left: 15%;
@@ -28,7 +31,7 @@ body {
 }
 .maingridp1 > div {
         background-color: #fffefee0;
-        border: 1px solid black;
+        border: 1px solid rgb(187, 26, 228);
         padding: 10px;
         font-size: 30px;
         text-align: center;
@@ -37,10 +40,10 @@ body {
 }
 
 #infobox1p1  { 
-          border-style: outset;
-          border-color: #0089de;
-          border-width: 5px;
-          border-radius: 5px;
+        border-style: outset;
+        border-color: #0089de;
+        border-width: 5px;                         
+  border-radius: 5px;
 }
 #infobox2p1 { 
         border-style: outset;
@@ -50,10 +53,10 @@ body {
 }
 
 #infobox3p1 { 
-border-style: outset;
-border-color: #0089de;
-border-width: 5px;
-border-radius: 5px;
+        border-style: outset;
+        border-color: #0089de;
+        border-width: 5px;
+        border-radius: 5px;
 }
 #infobox4p1 { 
         border-style: outset;
@@ -73,10 +76,10 @@ border-radius: 5px;
 
 }
 }
-@media screen and (min-width: 600px)  {
-#navbut1 {  font-size:25px;
-               font-weight: bold;
-               font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+@media screen and (max-width: 600px)  {
+#navbut1, #navbut2, #navbut3  { font-size:10px;
+                                font-weight: bold;
+                                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
                        
 }
 }
