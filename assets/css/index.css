@@ -1,6 +1,4 @@
-.bannerboxp1 {
-        
-}
+/*Navigation button styling*/
 #navbut1, #navbut2, #navbut3 {
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bolder;
@@ -13,10 +11,12 @@
         padding: 10px;
         align-content: center;
 }
+/*body styling*/
 body {
     margin-right: 15%;
     margin-left: 15%;
 }
+/*Main div that holds the information boxes styling for Home Page*/
 .maingridp1 {
         display: grid;
         grid-template-rows: 160px 600px 400px 50px;
@@ -28,16 +28,16 @@ body {
         margin-left: auto;
         border-style: ridge;
         border-color: #0089de;
-        space
-}
 
+}
+/*styling accross all divs (infoboxes)*/
 .maingridp1 > div {
         background-color: #fffefee0;
         padding: 20px;
         font-size: 20px;
         text-align: center;
 }
-
+/*Box 1 Home Page styling */
 #infobox1p1  { 
         border-style: outset;
         border-color: #0089de;
@@ -50,7 +50,7 @@ body {
         max-height: fit-content;
         padding: 30px;
 
-}
+}/*Box 2 Home Page 1 styling */
 #infobox2p1 { 
         border-style: outset;
         border-color:  #c60000;
@@ -60,7 +60,7 @@ body {
         max-height: auto;
    
 }
-
+/*Box 4 Home Page styling */
 #infobox4p1 { 
         border-style: outset;
         border-color:  #c60000;;
@@ -75,6 +75,7 @@ body {
 }
 
 
+/*Main div that holds the information boxes styling for the Media Gallery*/
 
 .maingridp2 {
             display: grid;
@@ -97,7 +98,7 @@ body {
             max-width: auto;
             max-height: auto;           
 }
-    
+/*Box 1 Media Gallery 2 styling */
 #infobox1p2  { 
             border-style: outset;
             border-color: #0089de;
@@ -106,7 +107,8 @@ body {
             max-width: fit-content;
             max-height: fit-content;
 }
-#infobox2p2 { 
+/*Box 3 Footer styling */
+#infobox3p2 { 
             border-style: outset;
             border-color:  #c60000;
             border-width: 5px;
@@ -116,14 +118,7 @@ body {
 }
     
 
-#infobox4p2 { 
-            border-style: outset;
-            border-color:  #c60000;;
-            border-width: 5px;
-            border-radius: 5px;
-            
-            
-}
+/*Main div that holds the information boxes styling for Console Historym page*/
 
 .maingridp3 {
         display: grid;
@@ -137,6 +132,8 @@ body {
         border-style: ridge;
         border-color: #0089de;
 }
+/*div styling for Console History page*/
+
 .maingridp3 > div {
         background-color: #fffefee0;
         border: 1px solid rgb(187, 26, 228);
@@ -146,7 +143,7 @@ body {
         max-width: auto;
         max-height: auto;           
 }
-
+/*Box 1 Console History page styling */
 #infobox1p3  { 
         border-style: outset;
         border-color: #0089de;
@@ -155,6 +152,7 @@ body {
         max-width: fit-content;
         max-height: fit-content;
 }
+/*Box 3 page 2 Console History page styling */
 #infobox2p3 { 
         border-style: outset;
         border-color:  #c60000;
@@ -163,15 +161,73 @@ body {
         max-width: fit-content;
         max-height: fit-content;
 }
-#infobox1p3  { 
+/*Box 3 page 3 Console History page  styling */
+#infobox3p3  { 
         border-style: outset;
         border-color: #0089de;
         border-width: 5px;                         
         border-radius: 5px;
         max-width: fit-content;
         max-height: fit-content;
+}
+/*Box 4 page 3 Console History page styling */
+#infobox4p3 { 
+        border-style: outset;
+        border-color:  #c60000;
+        border-width: 5px;
+        border-radius: 5px;
+        
+        
+}
 
-#infobox3p3 { 
+
+.maingridp4 {
+        display: grid;
+        grid-template-rows: auto auto auto auto;
+        row-gap: 20px;
+        background-color: black;
+        padding: 30px;
+        border-radius: 5px;
+        margin-right:  auto;
+        margin-left: auto;
+        border-style: ridge;
+        border-color: #0089de;
+}
+.maingridp4 > div {
+        background-color: #fffefee0;
+        border: 1px solid rgb(187, 26, 228);
+        padding: 10px;
+        font-size: 30px;
+        text-align: center;
+        max-width: auto;
+        max-height: auto;           
+}
+
+#infobox1p4  { 
+        border-style: outset;
+        border-color: #0089de;
+        border-width: 5px;                         
+        border-radius: 5px;
+        max-width: fit-content;
+        max-height: fit-content;
+}
+#infobox2p4 { 
+        border-style: outset;
+        border-color:  #c60000;
+        border-width: 5px;
+        border-radius: 5px;
+        max-width: fit-content;
+        max-height: fit-content;
+}
+#infobox3p4  { 
+        border-style: outset;
+        border-color: #0089de;
+        border-width: 5px;                         
+        border-radius: 5px;
+        max-width: fit-content;
+        max-height: fit-content;
+}
+#infobox4p4 { 
         border-style: outset;
         border-color:  #c60000;
         border-width: 5px;
@@ -187,13 +243,13 @@ body {
 }
  @media screen and (max-width: 1200px) {
 .tg16banner650 {     display:none;       
+}
+}
 
-}
-}
 @media screen and (max-width: 600px)  {
 #navbut1, #navbut2, #navbut3  { font-size:10px;
                                 font-weight: bold;
                                 font-family: Arial, Helvetica, sans-serif;
-                       
+}
 }
 }
