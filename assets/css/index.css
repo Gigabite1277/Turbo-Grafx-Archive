@@ -19,7 +19,7 @@ body {
 }
 .maingridp1 {
         display: grid;
-        grid-template-rows: 140px 400px 400px 100px;
+        grid-template-rows: 160px 600px 400px 50px;
         row-gap: 20px;
         background-color: black;
         padding: 30px;
@@ -28,14 +28,14 @@ body {
         margin-left: auto;
         border-style: ridge;
         border-color: #0089de;
+        space
 }
+
 .maingridp1 > div {
         background-color: #fffefee0;
         padding: 20px;
         font-size: 20px;
         text-align: center;
-        
-        
 }
 
 #infobox1p1  { 
@@ -43,7 +43,12 @@ body {
         border-color: #0089de;
         border-width: 5px;                         
         border-radius: 5px;
-        
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        align-content: center;
+        max-width: fit-content;
+        max-height: fit-content;
+        padding: 30px;
 
 }
 #infobox2p1 { 
@@ -61,10 +66,19 @@ body {
         border-color:  #c60000;;
         border-width: 5px;
         border-radius: 5px;
+
 }
+
+#pce250, #tg250, #tg16250 {
+        padding-left: 30px;
+        padding-right: 30px;
+}
+
+
+
 .maingridp2 {
             display: grid;
-            grid-template-rows: 180px 1000px 50px;
+            grid-template-rows: 180px auto 50px;
             row-gap: 20px;
             background-color: black;
             padding: 30px;
@@ -80,9 +94,8 @@ body {
             padding: 10px;
             font-size: 30px;
             text-align: center;
-            
-            
-            
+            max-width: auto;
+            max-height: auto;           
 }
     
 #infobox1p2  { 
@@ -102,15 +115,7 @@ body {
             max-height: fit-content;
 }
     
-#infobox3p2 { 
-            border-style: outset;
-            border-color: #0089de;
-            border-width: 5px;
-            border-radius: 5px;
-            max-width: fit-content;
-            max-height: fit-content;
-            
-}
+
 #infobox4p2 { 
             border-style: outset;
             border-color:  #c60000;;
@@ -118,6 +123,61 @@ body {
             border-radius: 5px;
             
             
+}
+
+.maingridp3 {
+        display: grid;
+        grid-template-rows: auto auto auto auto;
+        row-gap: 20px;
+        background-color: black;
+        padding: 30px;
+        border-radius: 5px;
+        margin-right:  auto;
+        margin-left: auto;
+        border-style: ridge;
+        border-color: #0089de;
+}
+.maingridp3 > div {
+        background-color: #fffefee0;
+        border: 1px solid rgb(187, 26, 228);
+        padding: 10px;
+        font-size: 30px;
+        text-align: center;
+        max-width: auto;
+        max-height: auto;           
+}
+
+#infobox1p3  { 
+        border-style: outset;
+        border-color: #0089de;
+        border-width: 5px;                         
+        border-radius: 5px;
+        max-width: fit-content;
+        max-height: fit-content;
+}
+#infobox2p3 { 
+        border-style: outset;
+        border-color:  #c60000;
+        border-width: 5px;
+        border-radius: 5px;
+        max-width: fit-content;
+        max-height: fit-content;
+}
+#infobox1p3  { 
+        border-style: outset;
+        border-color: #0089de;
+        border-width: 5px;                         
+        border-radius: 5px;
+        max-width: fit-content;
+        max-height: fit-content;
+
+#infobox3p3 { 
+        border-style: outset;
+        border-color:  #c60000;
+        border-width: 5px;
+        border-radius: 5px;
+        
+        
 }
 
 @media screen and (min-width: 1200px) {
