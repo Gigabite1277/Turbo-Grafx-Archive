@@ -17,6 +17,7 @@ body {
     margin-left: 15%;
     min-width:399 ;
 }
+
 /*Main div that holds the information boxes styling for Home Page*/
 .maingridp1 {
         display: grid;
