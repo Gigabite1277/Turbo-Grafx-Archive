@@ -110,7 +110,14 @@ body {
             border-radius: 5px;
             max-width: fit-content;
             max-height: fit-content;
+                    
+            
 }
+#infobox1p2 > p {
+        font-size: 20px;
+        font-weight: bold;
+}
+
 /*Box 3 Footer styling */
 #infobox4p2 { 
             border-style: outset;
@@ -155,15 +162,13 @@ body {
         padding: 30px;
         font-family: Arial, Helvetica, sans-serif; 
 }
-Box 3 page 2 Console History page styling 
+/*Box 3 page 2 Console History page styling */
 #infobox2p3 { 
         border-style: outset;
         border-color:  #c60000;
         border-width: 5px;
         border-radius: 5px;
-        font-family: Arial, Helvetica, sans-serif;
-        
-       
+        font-family: Arial, Helvetica, sans-serif;  
 }
 /*Box 3 page 3 Console History page  styling */
 #infobox3p3  { 
@@ -172,22 +177,17 @@ Box 3 page 2 Console History page styling
         border-width: 5px;                         
         border-radius: 5px;
         font-family: Arial, Helvetica, sans-serif;
-        
-       
-       
-
 }
+
 /*Box 4 page 3 Console History page styling */
 #infobox4p3 { 
         border-style: outset;
         border-color:  #c60000;
         border-width: 5px;
         border-radius: 5px;
-        
-        
 }
 
-/*Box 4 page 3 Console History page styling */
+/*Page 4 games & Gadgets styling */
 .maingridp4 {
         display: grid;
         grid-template-rows: auto auto auto auto;
@@ -202,7 +202,7 @@ Box 3 page 2 Console History page styling
 }
 .maingridp4 > div {
         background-color: #fffefee0;
-        border: 1px solid rgb(187, 26, 228);
+        border: 10px solid rgb(187, 26, 228);
         padding: 10px;
         font-size: 30px;
         text-align: center;
@@ -211,6 +211,7 @@ Box 3 page 2 Console History page styling
         font-family: Arial, Helvetica, sans-serif;          
 }
 
+/*Box 1 page 4 Gamnes & Gadgets page styling */
 #infobox1p4  { 
         border-style: outset;
         border-color: #0089de;
@@ -218,27 +219,29 @@ Box 3 page 2 Console History page styling
         border-radius: 5px;
        
 }
+
+/*Box 2 page 4 Gamnes & Gadgets page styling */
 #infobox2p4 { 
         border-style: outset;
         border-color:  #c60000;
         border-width: 5px;
         border-radius: 5px;
-        
-}
+        max-height: auto;
+ }
+
+/*Box 4 page 4 Gamnes & Gadgets page styling */
 #infobox3p4  { 
         border-style: outset;
         border-color: #0089de;
         border-width: 5px;                         
         border-radius: 5px;
-        
 }
+
 #infobox4p4 { 
         border-style: outset;
         border-color:  #c60000;
         border-width: 5px;
-        border-radius: 5px;
-        
-        
+        border-radius: 5px;      
 }
 
 @media screen and (min-width: 1000px) {
@@ -262,5 +265,5 @@ Box 3 page 2 Console History page styling
 @media screen and (max-width: 1016px) {
         body {     margin: auto;
                    
-        }
-        }
+}
+}
