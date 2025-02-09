@@ -207,7 +207,8 @@ Box 3 page 2 Console History page styling
         font-size: 30px;
         text-align: center;
         max-width: auto;
-        max-height: auto;           
+        max-height: auto; 
+        font-family: Arial, Helvetica, sans-serif;          
 }
 
 #infobox1p4  { 
@@ -215,24 +216,21 @@ Box 3 page 2 Console History page styling
         border-color: #0089de;
         border-width: 5px;                         
         border-radius: 5px;
-        max-width: fit-content;
-        max-height: fit-content;
+       
 }
 #infobox2p4 { 
         border-style: outset;
         border-color:  #c60000;
         border-width: 5px;
         border-radius: 5px;
-        max-width: fit-content;
-        max-height: fit-content;
+        
 }
 #infobox3p4  { 
         border-style: outset;
         border-color: #0089de;
         border-width: 5px;                         
         border-radius: 5px;
-        max-width: fit-content;
-        max-height: fit-content;
+        
 }
 #infobox4p4 { 
         border-style: outset;
