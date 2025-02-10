@@ -187,6 +187,16 @@ body {
         border-width: 5px;
         border-radius: 5px;
 }
+#infobox5p3 { 
+        border-style: outset;
+        border-color:  #0089de;
+        border-width: 5px;
+}
+#infobox6p3 { 
+        border-style: outset;
+        border-color:  #c60000;
+        border-width: 5px;
+}
 
 /*Page 4 games & Gadgets styling */
 .maingridp4 {
