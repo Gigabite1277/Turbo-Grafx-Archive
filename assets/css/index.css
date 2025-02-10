@@ -278,3 +278,8 @@ body {
                    
 }
 }
+@media screen and (max-width: 1137px) {
+        p {     font-size: 15px;
+                   
+}
+}
