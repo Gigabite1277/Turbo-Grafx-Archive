@@ -1,5 +1,4 @@
-# THE ![Turbo Grafx (UK Console)
-
+# THE TURBO GRAFX ARCHIVE
 
 ## Strategy
 ## Project Goals
