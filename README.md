@@ -1,4 +1,4 @@
-# THE ![Turbo Grafx (UK Console)](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+# THE ![Turbo Grafx (UK Console)](https://github.com/Gigabite1277/assets/images/tg16banner1600px.png)
 
 
 ## Strategy
